@@ -21,14 +21,14 @@ module.exports = {
       gasPrice: "auto",
     },
 
-    testnet: {
+    bscTestnet: {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
       chainId: 97,
       gasPrice: 21000000000,
       accounts: [`0x${process.env.privateKey}`],
     },
 
-    mainnet: {
+    bscMainnet: {
       url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API}`,
       accounts: [`0x${process.env.privateKey}`],
     },

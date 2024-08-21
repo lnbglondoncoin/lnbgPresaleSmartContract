@@ -15,7 +15,7 @@ Setup
 Clone this repository:
 
 
-https://github.com/MohsinAliSolangi/CreedCoin
+https://github.com/lnbglondoncoin/lnbgPresaleSmartContract
 Install dependencies:
 
 
@@ -51,10 +51,10 @@ Deploy your token to the BSC Testnet or Mainnet:
 
 
 
-npx hardhat run scripts/deploy.js --network bscTestnet
+npx hardhat run scripts/deployPresale.js --network bscTestnet
 or
 
-npx hardhat run scripts/deploy.js --network bscMainnet
+npx hardhat run scripts/deployPresale.js --network bscMainnet
 Confirm the deployment transaction in Metamask.
 
 
